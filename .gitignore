@@ -1,0 +1,5 @@
+*.log
+*.log.7z
+*.pyc
+*/.idea
+.idea/vcs.xml
