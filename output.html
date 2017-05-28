@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nginx Access Log Analysis</title>
+		<meta charset="UTF-8" />
+		<style>
+
+			body {
+				font-family: 'Lato', monospace;
+				background-color: #282525; /*#f4f1ea;*/
+			}
+
+			p {
+				font-size: 100%;
+				color: green;
+				text-align: center;
+			}
+
+			table#Table {
+				margin-top: 41px;
+				margin-left: auto;
+			    margin-right: auto;
+
+				font-size: 120%;
+				color: green;
+				text-align: center;
+
+				border-spacing: 3px;
+				border-collapse: separate;
+			}
+
+			table#Table td, th {
+				padding: 5px;
+				background-color: #3A3A3A;
+			}
+
+			hr {
+				border-style: inset;
+			}
+		</style>
+	</head>
+
+	<body>
+
+	<h2 style="color:green; text-align:center;">Nginx Access Log Analysis</h2>
+
+	<table id="Table">
+	<tr>
+		<td> Unique IP Count </td>
+		<td> 420 </td>
+	<tr>
+	<tr>
+		<td> Unique Content Count </td>
+		<td> 206 </td>
+	<tr>
+	<tr>
+		<td> The user who watched the most content </td>
+		<td> 192.240.109.106 </td>
+	<tr>
+	<tr>
+		<td> Most viewed content </td>
+		<td> ID_0000013087.ism </td>
+	<tr>
+	<tr>
+		<td> Bitrates </td>
+		<td> 1400000 = %76.50 <BR>
+400000 = %10.21 <BR>
+800000 = %9.31 <BR>
+1300000 = %3.81 <BR>
+300000 = %0.17 
+ </td>
+	<tr>
+	<tr>
+		<td> Browser Usage Rates </td>
+		<td> Firefox/1. = %76.87 <BR>
+Chrome/3368806 = %18.19 <BR>
+Mozilla/5.0 = %4.81 <BR>
+Samsung = %0.05 <BR>
+Mozilla/4.0 = %0.03 
+ </td>
+	<tr>
+	<tr>
+		<td> HTTP Status Rates </td>
+		<td> 2xx = %98.90 <BR>
+5xx = %0.58 <BR>
+403 = %0.28 <BR>
+400 = %0.11 <BR>
+3xx = %0.10 
+ </td>
+	<tr>
+	<tr>
+		<td> Video Count </td>
+		<td> 1425829 </td>
+	<tr>
+	<tr>
+		<td> Audio Count </td>
+		<td> 1259512 </td>
+	<tr>
+</table>
+
+	</body>
+</html>
