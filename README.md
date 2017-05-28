@@ -14,4 +14,4 @@ NginxParser is an open source project that parses and analyzes nginx access log 
     >>> parser.parse_file('nginx.access.log', output_file='result.txt', output_type='text')
 
 
-![alt text](http://imgur.com/pabGAbs)
+![alt text](http://i.imgur.com/pabGAbs.png)
