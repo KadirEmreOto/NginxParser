@@ -201,7 +201,7 @@ if __name__ == '__main__':
 
     ap.add_argument('-i', '--input_file', required=True)
     ap.add_argument('-o', '--output_file', default='stdout')
-    ap.add_argument('-t', '--output_type', default='text')
+    ap.add_argument('-t', '--output_type', default='text', choices=['text', 'html'])
 
     opts = ap.parse_args()
 
